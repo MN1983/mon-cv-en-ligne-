@@ -20,8 +20,18 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
+        .header-img {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
         h1, h2 {
             text-align: center;
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
         }
         .section {
             border-left: 5px solid #0073b1; /* Branche bleue à gauche */
@@ -34,7 +44,7 @@
             text-align: center;
             margin-top: 20px;
         }
-        .contact a {
+        .contact a, .experience a {
             color: #0073b1;
             text-decoration: none;
             font-weight: bold;
@@ -43,8 +53,10 @@
 </head>
 <body>
     <div class="container">
+        <img class="header-img" src="Simple Travail LinkedIn Bannière.png" alt="Bannière">
+        <img class="profile-img" src="profile.jpg" alt="Mourad Naili">
         <h1>Mourad Naili</h1>
-        <h2>Sous-Directeur Marketing | Carrefour Tunisie</h2>
+        <h2>Sous-Directeur Marketing | <a href="https://www.carrefour.tn" target="_blank">Carrefour Tunisie</a></h2>
 
         <div class="section">
             <h3>À propos</h3>
@@ -52,9 +64,9 @@
                Spécialiste de la stratégie omnicanale, du marketing digital et de la gestion budgétaire.</p>
         </div>
 
-        <div class="section">
+        <div class="section experience">
             <h3>Expérience</h3>
-            <p><strong>Carrefour Tunisie – Ulysse Hyper Distribution</strong></p>
+            <p><strong><a href="https://www.carrefour.tn" target="_blank">Carrefour Tunisie – Ulysse Hyper Distribution</a></strong></p>
             <ul>
                 <li>Sous-Directeur Marketing (Depuis 2024)</li>
                 <li>Chef de Département Communication (2015 - 2024)</li>
@@ -84,4 +96,3 @@
     </div>
 </body>
 </html>
-
